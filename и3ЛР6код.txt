@@ -1,0 +1,4 @@
+word = input("Введите слово: ")
+
+word = word[:3] + 'а' + word[3:]
+print(word)

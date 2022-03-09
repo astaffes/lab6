@@ -1,0 +1,6 @@
+string = input("Введите предложение: ")
+
+if 'чу' in string:
+    print(string.find('чу'))
+if 'щу' in string:
+    print(string.find('щу'))
